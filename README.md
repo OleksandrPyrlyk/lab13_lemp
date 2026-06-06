@@ -26,7 +26,7 @@ docker compose ps
 
 Wynik:
 
-[SCREENSHOT_4]
+<img width="898" height="152" alt="image" src="https://github.com/user-attachments/assets/63c6ce23-9e2d-476a-a764-0c3672905c9b" />
 
 ---
 
@@ -42,7 +42,7 @@ http://localhost:4001
 
 Wynik:
 
-[SCREENSHOT_5]
+<img width="636" height="245" alt="image" src="https://github.com/user-attachments/assets/b8f797a7-def7-4673-82e3-c0391f6f826e" />
 
 ### phpMyAdmin
 
@@ -54,7 +54,7 @@ http://localhost:6001
 
 Wynik:
 
-[SCREENSHOT_6]
+<img width="711" height="342" alt="image" src="https://github.com/user-attachments/assets/78ba994d-55b5-4ee6-a218-d01f2ac4dea6" />
 
 ---
 
@@ -68,7 +68,7 @@ docker compose exec mysql mysql -u lab13user -puser123 -e "SHOW DATABASES;"
 
 Wynik:
 
-[SCREENSHOT_7]
+<img width="714" height="148" alt="image" src="https://github.com/user-attachments/assets/d30a8594-bc2d-4885-8f8b-882db66b618b" />
 
 ### Odczyt danych testowych
 
@@ -78,7 +78,7 @@ docker compose exec mysql mysql -u lab13user -puser123 lab13db -e "SELECT * FROM
 
 Wynik:
 
-[SCREENSHOT_8]
+<img width="865" height="118" alt="image" src="https://github.com/user-attachments/assets/9dc5db1b-218c-4ce4-a84f-fc9db3d038e5" />
 
 ---
 
