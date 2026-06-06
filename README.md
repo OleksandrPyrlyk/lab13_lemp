@@ -95,11 +95,14 @@ Utworzone sekrety:
 
 ### Katalog secrets
 
-[SCREENSHOT_9]
+<img width="236" height="107" alt="image" src="https://github.com/user-attachments/assets/8674fbcf-b80b-427e-a596-2066a0a56eb6" />
 
 ### Konfiguracja secrets w docker-compose.yml
 
-[SCREENSHOT_10]
+<img width="478" height="244" alt="image" src="https://github.com/user-attachments/assets/bf08f29c-4d59-4b0a-9c0a-da49f2d050ec" />
+
+<img width="339" height="176" alt="image" src="https://github.com/user-attachments/assets/f5149e05-e3a2-4120-ae48-b2c893f2b878" />
+
 
 ### Potwierdzenie montowania secrets
 
@@ -109,7 +112,7 @@ docker inspect lab13_mysql
 
 Wynik:
 
-[SCREENSHOT_11]
+<img width="640" height="361" alt="image" src="https://github.com/user-attachments/assets/6fb5ece2-53e5-440f-a1df-e278d6bd3e67" />
 
 ---
 
