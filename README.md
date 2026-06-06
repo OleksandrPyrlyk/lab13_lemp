@@ -1,32 +1,10 @@
 # PAwChO Lab 13 + 13D
 
-## Autor
-
-Imię i nazwisko: ....................................
-
-Nr albumu: ....................................
-
----
-
-## Cel ćwiczenia
-
-Celem laboratorium było utworzenie środowiska LEMP z wykorzystaniem Docker Compose oraz konfiguracja danych wrażliwych przy użyciu Docker Secrets.
-
----
-
 ## Struktura projektu
 
 [SCREENSHOT_1]
 
----
-
-## Docker Compose
-
-Plik docker-compose.yml:
-
-[SCREENSHOT_2]
-
----
+<img width="179" height="280" alt="image" src="https://github.com/user-attachments/assets/3749e42f-13ae-4eb8-8cca-bed6afd0afd3" />
 
 ## Uruchomienie środowiska
 
@@ -38,7 +16,7 @@ docker compose up -d
 
 Wynik:
 
-[SCREENSHOT_3]
+<img width="903" height="226" alt="image" src="https://github.com/user-attachments/assets/cfacdd60-4654-420c-a971-875fc727ebf5" />
 
 ### Lista kontenerów
 
