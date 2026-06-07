@@ -1,0 +1,8 @@
+services:
+  nginx:
+    ports:
+      - "4001:80"
+
+  phpmyadmin:
+    ports:
+      - "6001:80"
