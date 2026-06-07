@@ -116,6 +116,40 @@ Wynik:
 
 ---
 
+# Laboratorium 14 — mechanizm merge
+
+W zadaniu dodatkowym zastosowano mechanizm merge Docker Compose.
+
+## Plik bazowy:
+
+```text
+docker-compose.yml
+```
+
+## Plik override
+
+```text
+docker-compose.override.yml
+```
+
+## Uruchomienie
+
+Docker Compose automatycznie łączy oba pliki przy użyciu polecenia:
+
+```bash
+docker compose up -d
+```
+
+## Potwierdzenie działania po podziale konfiguracji
+
+```bash
+docker compose ps
+```
+
+Wynik:
+
+<img width="912" height="156" alt="image" src="https://github.com/user-attachments/assets/22649003-cdb6-459d-b65c-625f5fd55587" />
+
 ## Wnioski
 
 Utworzono środowisko LEMP składające się z usług Nginx, PHP-FPM, MySQL oraz phpMyAdmin. Aplikacja została uruchomiona przy pomocy Docker Compose. Dane wrażliwe zostały przeniesione do Docker Secrets i zamontowane w kontenerze MySQL zgodnie z wymaganiami laboratorium.
