@@ -153,3 +153,5 @@ Wynik:
 ## Wnioski
 
 Utworzono środowisko LEMP składające się z usług Nginx, PHP-FPM, MySQL oraz phpMyAdmin. Aplikacja została uruchomiona przy pomocy Docker Compose. Dane wrażliwe zostały przeniesione do Docker Secrets i zamontowane w kontenerze MySQL zgodnie z wymaganiami laboratorium.
+
+Dodatkowo w ramach zadania z Laboratorium 14 zastosowano mechanizm merge Docker Compose poprzez podział konfiguracji na plik bazowy docker-compose.yml oraz plik docker-compose.override.yml. Potwierdzono poprawne działanie środowiska po scaleniu obu plików konfiguracyjnych.
